@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function useRandomCode(length=5, type="string"){
-    const [code, setCode] = React.useState(length? length : 5)
+    let [code, setCode] = React.useState(length? length : 5)
     const generated = {
         numeric: "0123456789",
         text: "abcdefghijklmnopqrstuvwxyz"
