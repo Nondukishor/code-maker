@@ -1,7 +1,7 @@
 {
-  "name": "code-maker",
+  "name": "random-code-getter",
   "version": "0.0.1",
-  "private": "false",
+  "private": false,
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",
