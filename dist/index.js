@@ -3,13 +3,17 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "useRandomCode", {
+Object.defineProperty(exports, "text", {
   enumerable: true,
   get: function get() {
-    return _useRandomCode.default;
+    return _package.text;
+  }
+});
+Object.defineProperty(exports, "numeric", {
+  enumerable: true,
+  get: function get() {
+    return _package.numeric;
   }
 });
 
-var _useRandomCode = _interopRequireDefault(require("./hooks/use-random-code"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _package = require("./package");

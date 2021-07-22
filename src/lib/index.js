@@ -1,4 +1,4 @@
-import useRandomCode from './hooks/use-random-code';
-export {
-    useRandomCode
+import {text, numeric}  from './package';
+export  {
+    text, numeric
 }
