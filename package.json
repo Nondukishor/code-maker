@@ -1,6 +1,6 @@
 {
   "name": "random-code-getter",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "private": false,
   "description": "",
   "main": "dist/index.js",

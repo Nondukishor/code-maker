@@ -1,4 +1,4 @@
-import Hello from './components/Hello';
+import useRandomCode from './hooks/use-random-code';
 export {
-    Hello
+    useRandomCode
 }
