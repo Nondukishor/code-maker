@@ -15,7 +15,7 @@ function useRandomCode() {
   let length = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 5;
   let type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "string";
 
-  const [code, setCode] = _react.default.useState(length ? length : 5);
+  let [code, setCode] = _react.default.useState(length ? length : 5);
 
   const generated = {
     numeric: "0123456789",
