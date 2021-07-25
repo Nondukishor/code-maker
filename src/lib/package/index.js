@@ -1,5 +1,3 @@
-import React from "react";
-
 const generated = {
   numeric: "0123456789",
   text: "abcdefghijklmnopqrstuvwxyz1234567890",
