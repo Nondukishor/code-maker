@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",             // Output directory for compiled files
+      "rootDir": "./src",             // Root directory for source files
+      "declaration": true,            // Generate .d.ts files
+      "declarationMap": true,         // Generate .d.ts.map files (optional)
+      "emitDeclarationOnly": false,   // This ensures JavaScript files are also generated
+      "module": "CommonJS",           // Module system, typically "CommonJS" for Node.js
+      "target": "ES6",                // ECMAScript target version
+      "strict": true,                 // Enable strict type-checking
+      "esModuleInterop": true 
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
