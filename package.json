@@ -1,6 +1,6 @@
 {
   "name": "random-code-getter",
-  "version": "0.2.5",
+  "version": "1.2.7",
   "private": false,
   "description": "This plugin is for get random code for OTP, verification or something like that",
   "main": "dist/index.js",
