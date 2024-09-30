@@ -17,6 +17,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/lib/index.js",
+    "prestart": "npm run build",
+    "preexample":"npm run build",
+    "example": "nodemon dist/example/index.js",
     "clean": "rm -rf dist"
   },
   "keywords": [
@@ -29,8 +32,11 @@
   "author": "Nipu Chakraborty",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.7.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
 }

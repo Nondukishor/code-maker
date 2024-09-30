@@ -1,2 +1,3 @@
-export { text, numeric } from './package';
+import generator from "./package";
+export default generator;
 //# sourceMappingURL=index.d.ts.map
