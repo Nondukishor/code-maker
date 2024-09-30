@@ -1,6 +1,6 @@
 import generator from '../lib/index';
 generator.setConfig({
-    expireIn: Date.now() + 5000,
+    expireIn: 5000,
     timeBased: true
 })
 
@@ -16,4 +16,3 @@ console.log(`Generated Text: ${textValue}`);  // e.g., "abcd1234"
 const capitalizedTextValue = generator.text({ length: 8, capital: true });
 console.log(`Generated Capitalized Text: ${capitalizedTextValue}`);  // e.g., "ABCD1234"
 
-console.log(generator.store)
