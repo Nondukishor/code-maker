@@ -19,8 +19,10 @@ yarn add random-code-getter
 ```
 import generator from 'random-code-getter'
 
-generator.config.expireIn = Date.now() + 5000;
-generator.config.timeBased = true;
+generator.setConfig({
+    expireIn: 5000,
+    timeBased: true
+})
 
 // Generate a numeric string of length 6
 const numericValue = generator.numeric({ length: 6 });
